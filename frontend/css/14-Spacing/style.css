@@ -1,0 +1,12 @@
+h1 {
+  font-size: 70px;
+  /*letter-spacing: 10px;*/
+  word-spacing: 40px;
+}
+
+p {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 30px;
+}

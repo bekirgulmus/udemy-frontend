@@ -1,0 +1,17 @@
+body {
+  background-color: red;
+}
+
+/* Maximum 768 px ve öncesi için */
+/*@media screen and (max-width: 768px) {*/
+/*  body {*/
+/*    background-color: blue;*/
+/*  }*/
+/*}*/
+
+/* 768px ve sonrası için */
+@media screen and (min-width: 768px) {
+  body {
+    background-color: blue;
+  }
+}

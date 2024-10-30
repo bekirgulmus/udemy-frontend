@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tablo</title>
+
+  <style>
+
+      table,
+      th,
+      td {
+        border: 1px solid red;
+      }
+
+      th,
+      td {
+        padding: 15px;
+      }
+
+      th {
+          text-align: left;
+      }
+  </style>
+
+</head>
+<body>
+  <table style="width: 100%">
+    <tr>
+      <th>Ad</th>
+      <th>Soyad</th>
+      <th>Yaş</th>
+    </tr>
+
+    <tr>
+      <td>Can</td>
+      <td>Boz</td>
+      <td>32</td>
+    </tr>
+    <tr>
+        <td>Bekir</td>
+        <td>Gülmüş</td>
+        <td>28</td>
+    </tr>
+  </table>
+
+  <table style="width: 100%">
+    <tr>
+      <th>Ad</th>
+      <th>Soyad</th>
+      <th>Yaş</th>
+    </tr>
+
+    <tr>
+      <td>Can</td>
+      <td colspan="2">Boz</td>
+    </tr>
+    <tr>
+      <td>Bekir</td>
+      <td>Gülmüş</td>
+      <td>28</td>
+    </tr>
+  </table>
+
+
+  <table style="width: 100%">
+    <tr>
+      <th>Ad</th>
+      <th>Soyad</th>
+      <th>Yaş</th>
+    </tr>
+    <tr>
+      <td rowspan="2">Bekir</td>
+      <td>Gülmüş</td>
+      <td>28</td>
+    </tr>
+    <tr>
+      <td>Boz</td>
+      <td>31</td>
+    </tr>
+  </table>
+
+  <table style="width: 100%">
+    <caption>Öğrenci Listesi</caption>
+    <tr>
+      <th>Ad</th>
+      <th>Soyad</th>
+      <th>Yaş</th>
+    </tr>
+    <tr>
+      <td rowspan="2">Bekir</td>
+      <td>Gülmüş</td>
+      <td>28</td>
+    </tr>
+    <tr>
+      <td>Boz</td>
+      <td>31</td>
+    </tr>
+  </table>
+
+</body>
+</html>

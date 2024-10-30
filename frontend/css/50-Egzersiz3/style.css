@@ -1,0 +1,14 @@
+.right-bar {
+  position: fixed;
+  height: 100vh;
+  width: 150px;
+  background-color: blue;
+  top: 0;
+  right: 0;
+}
+
+button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

@@ -1,0 +1,39 @@
+/* Masaüstünden Mobile */
+h1 {
+  font-size: 30px;
+}
+
+/** 1192 ve 768 pixel arası **/
+@media screen and (max-width: 1192px) {
+  h1 {
+    font-size: 20px;
+  }
+}
+
+/**
+  768 pixel ve öncesi için 12 px
+ */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 12px;
+  }
+}
+
+/* Mobile'den Masaüstüne */
+
+/*h1 {*/
+/*  font-size: 12px;*/
+/*}*/
+
+/*@media screen and (min-width: 768px) {*/
+/*  h1 {*/
+/*    font-size: 20px;*/
+/*  }*/
+/*}*/
+
+/*@media screen and (min-width: 1192px) {*/
+/*  h1 {*/
+/*    font-size: 30px;*/
+/*  }*/
+/*}*/
+

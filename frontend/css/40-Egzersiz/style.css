@@ -1,0 +1,46 @@
+body {
+  background-color: pink;
+  color: blueviolet;
+}
+
+.container {
+  background-color: #fff;
+  width: 500px;
+  border-radius: 30px;
+  margin: 100px auto;
+  padding: 40px;
+}
+
+.container h2, h1 {
+  text-transform: uppercase;
+}
+
+.container h2 {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+.container h1 {
+  font-size: 30px;
+  font-weight: 100;
+  margin-top: 0;
+}
+
+.container p {
+  font-size: 20px;
+}
+
+button {
+  padding: 20px 30px;
+  font-size: 15px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.container button:hover {
+  cursor: pointer;
+}
+

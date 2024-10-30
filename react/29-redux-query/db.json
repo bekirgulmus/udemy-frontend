@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Julia"
+    },
+    {
+      "id": "2",
+      "name": "Can Boz"
+    },
+    {
+      "id": "cd87",
+      "name": "Ferda Çevik"
+    }
+  ],
+  "albums": [
+    {
+      "userId": 1,
+      "title": "EskiŞehir",
+      "id": 15
+    },
+    {
+      "id": "3359",
+      "userId": "1",
+      "title": "Pratik Granit Pizza"
+    },
+    {
+      "id": "aa32",
+      "userId": "1",
+      "title": "Zeki Ahşap Havlu"
+    }
+  ],
+  "photos": [
+    {
+      "id": "f853",
+      "albumId": "aa32",
+      "url": "https://avatars.githubusercontent.com/u/75326585"
+    },
+    {
+      "id": "b385",
+      "albumId": "aa32",
+      "url": "https://avatars.githubusercontent.com/u/90139878"
+    },
+    {
+      "id": "33da",
+      "albumId": "aa32",
+      "url": "https://avatars.githubusercontent.com/u/64656181"
+    },
+    {
+      "id": "ec94",
+      "albumId": "aa32",
+      "url": "https://avatars.githubusercontent.com/u/74581359"
+    },
+    {
+      "id": "82e3",
+      "albumId": "aa32",
+      "url": "https://avatars.githubusercontent.com/u/31488439"
+    }
+  ]
+}

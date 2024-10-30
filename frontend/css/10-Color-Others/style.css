@@ -1,0 +1,9 @@
+body {
+  background-color: rgb(255, 0, 0);
+  color: #ffffff;
+}
+
+#overview {
+  color: rgba(0, 63, 253,0.5);
+  /*opacity: 0.5;*/
+}

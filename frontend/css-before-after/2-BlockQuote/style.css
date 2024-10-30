@@ -1,0 +1,18 @@
+blockquote {
+  font-size: 50px;
+  position: relative;
+}
+
+blockquote::before {
+  position: absolute;
+  content: open-quote;
+  top: -50px;
+  left: -40px;
+}
+
+blockquote::after {
+  position: absolute;
+  content: close-quote;
+  bottom: -50px;
+  right: -30px;
+}

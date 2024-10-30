@@ -1,0 +1,14 @@
+.box {
+  width: 500px;
+  height: 500px;
+  border: 1px solid red;
+  background-image: url('./images/angular.jpg');
+  background-size: cover;
+  /*background-position: center;*/
+  /*background-position: top;*/
+  background-position: bottom;
+  /*background-position: left;*/
+  /*background-position: right;*/
+  /*background-poistion: top left*/
+
+}

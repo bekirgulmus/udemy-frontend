@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <title>Form Örnek</title>
+</head>
+<body>
+
+  <div class="container mt-5">
+    <form>
+      <div class="row mb-3">
+        <div class="col-lg-6">
+          <label class="form-label">Email</label>
+          <input type="email" class="form-control">
+        </div>
+        <div class="col-lg-6">
+          <label class="form-label">Şifre</label>
+          <input type="password" class="form-control">
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col-12">
+          <label class="form-label">Adres</label>
+          <input type="text" class="form-control" placeholder="Cadde, Sokak, Mahalle">
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col-12">
+          <label class="form-label">Adres Satırı 2</label>
+          <input type="text" class="form-control" placeholder="Apartman, No, Daire">
+        </div>
+      </div>
+
+      <div class="row mb-3">
+        <div class="col-lg-6">
+          <label class="form-label">Ülke</label>
+          <select class="form-select">
+            <option value="" selected>Lütfen Seçiniz...</option>
+            <option value="tr">Türkiye</option>
+            <option value="de">Almanya</option>
+          </select>
+        </div>
+        <div class="col-lg-4">
+          <label class="form-label">Şehir</label>
+          <select class="form-select">
+            <option value="" selected>Lütfen Seçiniz...</option>
+            <option value="ist">İstanbul</option>
+            <option value="ank">Ankara</option>
+            <option value="izm">İzmir</option>
+          </select>
+        </div>
+        <div class="col-lg-2">
+          <label class="form-label">Zip Kodu</label>
+          <input type="text" class="form-control">
+        </div>
+      </div>
+
+      <div class="row mb-3">
+        <div class="col-12">
+          <div class="form-check">
+            <a href="#">Kullanım Koşullarını</a>
+            <input type="checkbox" class="form-check-input">
+            <label>Kabul Ediyorum.</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-3">
+        <div class="col-12">
+          <button class="btn btn-primary">Kaydol</button>
+        </div>
+      </div>
+
+    </form>
+  </div>
+
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>

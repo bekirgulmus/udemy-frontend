@@ -1,0 +1,17 @@
+.box {
+  width: 200px;
+  /*height: 200px;*/
+  border-radius: 30px;
+  border: 1px solid black;
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+  /*overflow: hidden;*/
+
+  /*overflow: scroll;*/
+  /*overflow-x: hidden;*/
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}

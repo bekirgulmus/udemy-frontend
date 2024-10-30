@@ -1,0 +1,83 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+header {
+  margin: 32px;
+}
+
+h1 {
+  font-weight: 300;
+  display: inline-block;
+}
+
+.links {
+  display: inline-block;
+}
+
+.links li {
+  display: inline-block;
+}
+
+.links a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 8px;
+}
+
+a.active{
+  border-bottom: 1px solid black;
+}
+
+.gallery {
+  padding: 15px;
+}
+
+.card {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 16px;
+  width: 49%;
+}
+
+.card img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card img:hover {
+  opacity: 0.9;
+}
+
+.card h2 {
+  margin: 8px 0 16px 0;
+  font-weight: 300;
+}
+
+.why {
+  width: 50%;
+  margin: 100px 200px;
+}
+
+.banner {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 25px;
+}
+
+.message {
+  color: red;
+  font-size: 50px;
+  font-style: italic;
+  margin-top: 0;
+  border-bottom: 1px solid black;
+  padding-bottom: 8px;
+}
+
+.contact p {
+  margin: 0;
+  font-weight: 600;
+}
